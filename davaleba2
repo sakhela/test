@@ -1,0 +1,16 @@
+//Diagonal
+function main(){
+   repeat (4){
+      put();
+   }
+   putBeeper();
+}
+
+
+function put(){
+   putBeeper();
+   move();
+   turnLeft();
+   move();
+   turnRight();
+}
