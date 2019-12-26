@@ -1,0 +1,33 @@
+function main() {
+   while (frontIsClear()){
+   putBeeper();
+   putBeeperLine();
+   nextLine();
+   axali();
+}
+}
+
+function putBeeperLine(){
+   while(frontIsClear()) {
+      move();
+      putBeeper();
+   }
+  }
+  function nextLine(){
+     if (frontIsBlocked()){
+       turnAround();
+     }
+  }
+  
+function axali(){
+   if (leftIsClear()){
+      turnAround
+   while (frontIsClear()){
+      move();
+   }
+   if (frontIsBlocked()){
+     turnRight();
+      move();
+      turnRight();
+}
+}
