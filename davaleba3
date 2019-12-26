@@ -1,0 +1,24 @@
+//put Beeper on every second streen
+function main(){
+   while(frontIsClear()) {
+      one();
+   }
+}
+
+function one(){
+   turnLeft();
+   move();
+   move();
+   turnRight();
+   move();
+   turnRight();
+   putBeeper();
+   move();
+   putBeeper();
+   move();
+   putBeeper();
+   turnLeft(); 
+   if (frontIsClear()){
+   move();
+}
+}
